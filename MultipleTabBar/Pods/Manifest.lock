@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Reachability
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Reachability
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: dc75d16571194ae5d374129fbac0d1d131e5f5b0
+
+COCOAPODS: 1.5.3

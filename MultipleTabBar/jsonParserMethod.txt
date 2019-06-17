@@ -1,0 +1,40 @@
+func jsonParser()
+    {
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
+            return
+        }
+        let task = URLSession.shared.dataTask(with: url)
+        {
+            (data, response, error) in
+            guard let dataResponse = data,
+                error == nil else {
+                    print(error?.localizedDescription ?? "Response Error")
+                    return
+            }
+            do {
+                //here dataResponse received from a network request
+                let jsonResponse = try JSONSerialization.jsonObject(with: dataResponse, options: [])
+                print(jsonResponse) // Response result
+                
+                guard let jsonArray = jsonResponse as? [[String: Any]] else
+                { return}
+                
+                print(jsonArray)
+//                let userObj = User()
+                //Get value
+                guard let title = jsonArray [0]["title"] as? String else {return}
+                print("--------------",title)
+                
+                for dict in jsonArray {
+                    guard let title1 = dict["title"] as? String else {return}
+                    print("++++++++++++++++++",title1)
+                }
+            }
+            catch let parsingError {
+                print("Error", parsingError)
+            }
+        }
+        task.resume()
+        
+        
+    }

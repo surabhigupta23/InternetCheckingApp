@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014EDA2D2266CD1D00EB272A /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA2C2266CD1D00EB272A /* OfflineViewController.swift */; };
+		014EDA2F2266CD3000EB272A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA2E2266CD3000EB272A /* LogoutViewController.swift */; };
+		014EDA312266CF2A00EB272A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA302266CF2A00EB272A /* DataViewController.swift */; };
+		014EDA342266D39200EB272A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA332266D39200EB272A /* User.swift */; };
+		014EDA382266D41500EB272A /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA362266D41500EB272A /* ImageTableViewCell.swift */; };
+		014EDA392266D41500EB272A /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA372266D41500EB272A /* ImageTableViewCell.xib */; };
+		014EDA3C2266D42A00EB272A /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA3A2266D42A00EB272A /* LabelTableViewCell.swift */; };
+		014EDA3D2266D42A00EB272A /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA3B2266D42A00EB272A /* LabelTableViewCell.xib */; };
+		014EDA402266D45200EB272A /* SignInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA3E2266D45200EB272A /* SignInTableViewCell.swift */; };
+		014EDA412266D45200EB272A /* SignInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA3F2266D45200EB272A /* SignInTableViewCell.xib */; };
+		014EDA442266D46900EB272A /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA422266D46900EB272A /* ButtonTableViewCell.swift */; };
+		014EDA452266D46900EB272A /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA432266D46900EB272A /* ButtonTableViewCell.xib */; };
+		014EDA482266D48B00EB272A /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA462266D48B00EB272A /* DataTableViewCell.swift */; };
+		014EDA492266D48B00EB272A /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA472266D48B00EB272A /* DataTableViewCell.xib */; };
+		014EDA4C2266D55300EB272A /* LoadMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EDA4A2266D55300EB272A /* LoadMoreTableViewCell.swift */; };
+		014EDA4D2266D55300EB272A /* LoadMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014EDA4B2266D55300EB272A /* LoadMoreTableViewCell.xib */; };
+		017066DB2264877400DB5AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017066DA2264877400DB5AC0 /* AppDelegate.swift */; };
+		017066DD2264877400DB5AC0 /* OnlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017066DC2264877400DB5AC0 /* OnlineViewController.swift */; };
+		017066E02264877400DB5AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017066DE2264877400DB5AC0 /* Main.storyboard */; };
+		017066E32264877400DB5AC0 /* MultipleTabBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 017066E12264877400DB5AC0 /* MultipleTabBar.xcdatamodeld */; };
+		017066E52264877600DB5AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017066E42264877600DB5AC0 /* Assets.xcassets */; };
+		017066E82264877600DB5AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017066E62264877600DB5AC0 /* LaunchScreen.storyboard */; };
+		01D0EB512286294900B05A25 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D0EB502286294900B05A25 /* Reachability.swift */; };
+		842288F29B7BB5F30C61A40F /* Pods_MultipleTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77137544470B08530DAD5E5E /* Pods_MultipleTabBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014EDA2C2266CD1D00EB272A /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		014EDA2E2266CD3000EB272A /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		014EDA302266CF2A00EB272A /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		014EDA332266D39200EB272A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		014EDA362266D41500EB272A /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA372266D41500EB272A /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		014EDA3A2266D42A00EB272A /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA3B2266D42A00EB272A /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
+		014EDA3E2266D45200EB272A /* SignInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA3F2266D45200EB272A /* SignInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInTableViewCell.xib; sourceTree = "<group>"; };
+		014EDA422266D46900EB272A /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA432266D46900EB272A /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		014EDA462266D48B00EB272A /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA472266D48B00EB272A /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		014EDA4A2266D55300EB272A /* LoadMoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreTableViewCell.swift; sourceTree = "<group>"; };
+		014EDA4B2266D55300EB272A /* LoadMoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadMoreTableViewCell.xib; sourceTree = "<group>"; };
+		017066D72264877400DB5AC0 /* MultipleTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017066DA2264877400DB5AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		017066DC2264877400DB5AC0 /* OnlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineViewController.swift; sourceTree = "<group>"; };
+		017066DF2264877400DB5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		017066E22264877400DB5AC0 /* MultipleTabBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultipleTabBar.xcdatamodel; sourceTree = "<group>"; };
+		017066E42264877600DB5AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		017066E72264877600DB5AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		017066E92264877600DB5AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D0EB502286294900B05A25 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "Reachability.swift-master/Sources/Reachability.swift"; sourceTree = SOURCE_ROOT; };
+		77137544470B08530DAD5E5E /* Pods_MultipleTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultipleTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A1FA49479D0239A2710DA2 /* Pods-MultipleTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTabBar/Pods-MultipleTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		CEF15FF52AC43D1753688030 /* Pods-MultipleTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultipleTabBar/Pods-MultipleTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017066D42264877400DB5AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842288F29B7BB5F30C61A40F /* Pods_MultipleTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014EDA2B2266CCE000EB272A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				017066DC2264877400DB5AC0 /* OnlineViewController.swift */,
+				014EDA2C2266CD1D00EB272A /* OfflineViewController.swift */,
+				014EDA2E2266CD3000EB272A /* LogoutViewController.swift */,
+				014EDA302266CF2A00EB272A /* DataViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		014EDA322266D37F00EB272A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				014EDA332266D39200EB272A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		014EDA352266D3BA00EB272A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				014EDA362266D41500EB272A /* ImageTableViewCell.swift */,
+				014EDA372266D41500EB272A /* ImageTableViewCell.xib */,
+				014EDA3A2266D42A00EB272A /* LabelTableViewCell.swift */,
+				014EDA3B2266D42A00EB272A /* LabelTableViewCell.xib */,
+				014EDA3E2266D45200EB272A /* SignInTableViewCell.swift */,
+				014EDA3F2266D45200EB272A /* SignInTableViewCell.xib */,
+				014EDA422266D46900EB272A /* ButtonTableViewCell.swift */,
+				014EDA432266D46900EB272A /* ButtonTableViewCell.xib */,
+				014EDA462266D48B00EB272A /* DataTableViewCell.swift */,
+				014EDA472266D48B00EB272A /* DataTableViewCell.xib */,
+				014EDA4A2266D55300EB272A /* LoadMoreTableViewCell.swift */,
+				014EDA4B2266D55300EB272A /* LoadMoreTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		017066CE2264877400DB5AC0 = {
+			isa = PBXGroup;
+			children = (
+				017066D92264877400DB5AC0 /* MultipleTabBar */,
+				017066D82264877400DB5AC0 /* Products */,
+				AFF84706C384C246CAE76B2E /* Pods */,
+				88EB26BBC31305C850020A70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		017066D82264877400DB5AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017066D72264877400DB5AC0 /* MultipleTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017066D92264877400DB5AC0 /* MultipleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				01D0EB4D2285597F00B05A25 /* NetworkManager */,
+				014EDA352266D3BA00EB272A /* Cell */,
+				014EDA322266D37F00EB272A /* Model */,
+				014EDA2B2266CCE000EB272A /* Controllers */,
+				017066DA2264877400DB5AC0 /* AppDelegate.swift */,
+				017066DE2264877400DB5AC0 /* Main.storyboard */,
+				017066E42264877600DB5AC0 /* Assets.xcassets */,
+				017066E62264877600DB5AC0 /* LaunchScreen.storyboard */,
+				017066E92264877600DB5AC0 /* Info.plist */,
+				017066E12264877400DB5AC0 /* MultipleTabBar.xcdatamodeld */,
+			);
+			path = MultipleTabBar;
+			sourceTree = "<group>";
+		};
+		01D0EB4D2285597F00B05A25 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				01D0EB502286294900B05A25 /* Reachability.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		88EB26BBC31305C850020A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77137544470B08530DAD5E5E /* Pods_MultipleTabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF84706C384C246CAE76B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF15FF52AC43D1753688030 /* Pods-MultipleTabBar.debug.xcconfig */,
+				80A1FA49479D0239A2710DA2 /* Pods-MultipleTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		017066D62264877400DB5AC0 /* MultipleTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017066EC2264877600DB5AC0 /* Build configuration list for PBXNativeTarget "MultipleTabBar" */;
+			buildPhases = (
+				45C0BF652160836D91E6E4C3 /* [CP] Check Pods Manifest.lock */,
+				017066D32264877400DB5AC0 /* Sources */,
+				017066D42264877400DB5AC0 /* Frameworks */,
+				017066D52264877400DB5AC0 /* Resources */,
+				8F715B8F15C2624D390C0A35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleTabBar;
+			productName = MultipleTabBar;
+			productReference = 017066D72264877400DB5AC0 /* MultipleTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017066CF2264877400DB5AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Surabhi Gupta";
+				TargetAttributes = {
+					017066D62264877400DB5AC0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 017066D22264877400DB5AC0 /* Build configuration list for PBXProject "MultipleTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 017066CE2264877400DB5AC0;
+			productRefGroup = 017066D82264877400DB5AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017066D62264877400DB5AC0 /* MultipleTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017066D52264877400DB5AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014EDA4D2266D55300EB272A /* LoadMoreTableViewCell.xib in Resources */,
+				017066E82264877600DB5AC0 /* LaunchScreen.storyboard in Resources */,
+				014EDA3D2266D42A00EB272A /* LabelTableViewCell.xib in Resources */,
+				014EDA392266D41500EB272A /* ImageTableViewCell.xib in Resources */,
+				014EDA492266D48B00EB272A /* DataTableViewCell.xib in Resources */,
+				014EDA452266D46900EB272A /* ButtonTableViewCell.xib in Resources */,
+				017066E52264877600DB5AC0 /* Assets.xcassets in Resources */,
+				017066E02264877400DB5AC0 /* Main.storyboard in Resources */,
+				014EDA412266D45200EB272A /* SignInTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C0BF652160836D91E6E4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultipleTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F715B8F15C2624D390C0A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTabBar/Pods-MultipleTabBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultipleTabBar/Pods-MultipleTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017066D32264877400DB5AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014EDA2D2266CD1D00EB272A /* OfflineViewController.swift in Sources */,
+				014EDA442266D46900EB272A /* ButtonTableViewCell.swift in Sources */,
+				014EDA382266D41500EB272A /* ImageTableViewCell.swift in Sources */,
+				017066DD2264877400DB5AC0 /* OnlineViewController.swift in Sources */,
+				017066DB2264877400DB5AC0 /* AppDelegate.swift in Sources */,
+				014EDA2F2266CD3000EB272A /* LogoutViewController.swift in Sources */,
+				014EDA4C2266D55300EB272A /* LoadMoreTableViewCell.swift in Sources */,
+				014EDA402266D45200EB272A /* SignInTableViewCell.swift in Sources */,
+				01D0EB512286294900B05A25 /* Reachability.swift in Sources */,
+				014EDA482266D48B00EB272A /* DataTableViewCell.swift in Sources */,
+				014EDA3C2266D42A00EB272A /* LabelTableViewCell.swift in Sources */,
+				014EDA312266CF2A00EB272A /* DataViewController.swift in Sources */,
+				017066E32264877400DB5AC0 /* MultipleTabBar.xcdatamodeld in Sources */,
+				014EDA342266D39200EB272A /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		017066DE2264877400DB5AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017066DF2264877400DB5AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		017066E62264877600DB5AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017066E72264877600DB5AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017066EA2264877600DB5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		017066EB2264877600DB5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017066ED2264877600DB5AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF15FF52AC43D1753688030 /* Pods-MultipleTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F565GR9ZJ;
+				INFOPLIST_FILE = MultipleTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vignet.MultipleTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		017066EE2264877600DB5AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A1FA49479D0239A2710DA2 /* Pods-MultipleTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F565GR9ZJ;
+				INFOPLIST_FILE = MultipleTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vignet.MultipleTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017066D22264877400DB5AC0 /* Build configuration list for PBXProject "MultipleTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017066EA2264877600DB5AC0 /* Debug */,
+				017066EB2264877600DB5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017066EC2264877600DB5AC0 /* Build configuration list for PBXNativeTarget "MultipleTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017066ED2264877600DB5AC0 /* Debug */,
+				017066EE2264877600DB5AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		017066E12264877400DB5AC0 /* MultipleTabBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				017066E22264877400DB5AC0 /* MultipleTabBar.xcdatamodel */,
+			);
+			currentVersion = 017066E22264877400DB5AC0 /* MultipleTabBar.xcdatamodel */;
+			path = MultipleTabBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 017066CF2264877400DB5AC0 /* Project object */;
+}
